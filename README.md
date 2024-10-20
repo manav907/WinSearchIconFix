@@ -6,9 +6,10 @@
 
 This issue can occur for several reasons, but it should automatically resolve when the icon cache is properly rebuilt. I am not sure about this and this is my theroy I tried to recreate this issue in a VM and the icons do not fix themselves automatically.
 
-That being said, sometimes rebuilding the icon cache does not work. Rebuilding the icon cache may fail due to the use of tools that debloat Windows or block telemetry. These tools prevent the recreation of cached icons for UWP apps, leading to missing or incorrect icons in the Start menu.
+Rebuilding the icon cache may fail due to the use of tools that debloat Windows or block telemetry. These tools prevent the recreation of cached icons for UWP apps, leading to missing or incorrect icons in the Start menu.
 
 Another reason for this issue is software interference, with Google Drive being a common culprit. The exact point of failure is unknown to me, but this fix will work even if you have Google Drive installed. 
+
 However, Google Drive continues to break UWP icons upon launch thus, you may need to re-run this solution if you plan to continue using Google Drive. Currently, I do not have a permanent fix for this, nor am I working on one. I hope someone finds my work useful and can build upon my findings to create a permanent solution.
 
 
